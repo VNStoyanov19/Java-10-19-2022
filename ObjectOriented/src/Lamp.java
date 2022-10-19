@@ -2,7 +2,7 @@ public class Lamp {
     private int power;
 
     Lamp(int power) {
-        this.power = power;
+        this.power = this.power + power;
     }
 
     public void switchLampOnOrOff() {
